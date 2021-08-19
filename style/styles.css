@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.cover {
+  margin-top: 3.5rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  background: rgba(0,0,0, 35%) url("/images/adam.jpg")  no-repeat ;
+  background-size: cover;
+}
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #aaa;
+  opacity: .3;
+  /* z-index: 3; */
+}
+.cover .pre-download {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.cover .pre-download hgroup {
+  z-index: -9989978;
+}
+.cover .pre-download img {
+  max-width: 35rem;
+  max-height: 3rem;
+}
