@@ -1,42 +1,117 @@
+
+
 * {
   box-sizing: border-box;
 }
-html,
+
 body {
   width: 100%;
   margin: 0;
   padding: 0;
+  color: floralwhite;
+  line-height: 1.5rem;
+  background: #A7CFDF;
+  background: -webkit-linear-gradient(to top, #A7CFDF 5%, #23538A 93%);
+  background: -moz-linear-gradient(to top, #A7CFDF 5%, #23538A 93%);
+  background: linear-gradient(to top, #A7CFDF 5%, #23538A 93%);
+
+
+
+
+  background: #0D2130;
+background: -webkit-linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9DB1BF 100%);
+background: -moz-linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9DB1BF 100%);
+background: linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9DB1BF 100%);
+  background-repeat: no-repeat;
 }
-.cover {
-  margin-top: 3.5rem;
+
+.color-hmain {
+  color: #41EEFA;
+}
+.color-p-low {
+  color: #B0D8F7;
+}
+.navbar-brand {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 90vh;
-  background: rgba(0,0,0, 35%) url("/images/adam.jpg")  no-repeat ;
-  background-size: cover;
 }
-.cover::before {
-  content: "";
+
+.navbar-brand .circle {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+
+  border: 2px solid floralwhite;
+  border-radius: 50%;
+}
+.navbar-brand .brand {
+  display: inline-block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 19%;
+  left: 18%;
+}
+
+.cover {
+  display: block !important;
+  margin-top: 6rem;
   width: 100%;
-  height: 100%;
-  background-color: #aaa;
-  opacity: .3;
-  /* z-index: 3; */
+  height: 100vh;
 }
-.cover .pre-download {
-  position: absolute;
-  top: 50%;
-  left: 10%;
+
+
+.cover-text .text-hmain {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
-.cover .pre-download hgroup {
-  z-index: -9989978;
+.cover-text h1 {
+  font-size: 3.3rem;
+  line-height: 4rem;
 }
-.cover .pre-download img {
-  max-width: 35rem;
-  max-height: 3rem;
+
+#features h2 {
+  margin-bottom: 3.5rem;
+  margin-top: 1.4;
+}
+#features i.fa {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #41EEFA;
+  font-weight: 700;
+  width: 5rem;
+  height: 5rem !important;
+  border: 1px solid #e1e1e1;
+  line-height: 3;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+}
+#features i.fa:hover {
+  color: floralwhite;
+  background: #41EEFA;
+  border: 0;
+}
+#features h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.3rem;
+  padding: .3rem;
+}
+#features .text-black:hover {
+  border-bottom: 2px solid black;
+  color: #41EEFA !important;
+  border-radius: 10px;
+}
+
+
+.feature-details {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+.feature-details ul i.fa {
+  font-size: 20px;
+  color: #41EEFA;
+  text-align: center;
+  height: 30px;
+  width: 30px;
 }
