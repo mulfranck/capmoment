@@ -10,13 +10,6 @@ body {
   padding: 0;
   color: floralwhite;
   line-height: 1.5rem;
-  background: #A7CFDF;
-  background: -webkit-linear-gradient(to top, #A7CFDF 5%, #23538A 93%);
-  background: -moz-linear-gradient(to top, #A7CFDF 5%, #23538A 93%);
-  background: linear-gradient(to top, #A7CFDF 5%, #23538A 93%);
-
-
-
 
   background: #0D2130;
 background: -webkit-linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9DB1BF 100%);
@@ -49,7 +42,7 @@ background: linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9D
   display: inline-block;
   position: absolute;
   top: 19%;
-  left: 18%;
+  left: 19%;
 }
 
 .cover {
@@ -60,13 +53,14 @@ background: linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9D
 }
 
 
-.cover-text .text-hmain {
-  margin-top: 2rem;
+.cover-text .color-hmain {
+  margin-top: 2.0rem;
   margin-bottom: 1rem;
 }
 .cover-text h1 {
   font-size: 3.3rem;
   line-height: 4rem;
+  margin-bottom: 2rem;
 }
 
 #features h2 {
@@ -105,8 +99,11 @@ background: linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9D
 
 
 .feature-details {
-  margin-top: 7rem;
-  margin-bottom: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.feature-details h4, .feature-details h2 {
+  margin-bottom: 2rem;
 }
 .feature-details ul i.fa {
   font-size: 20px;
@@ -114,4 +111,30 @@ background: linear-gradient(to bottom, #0D2130 0%, #0E2E47 25%, #58758C 74%, #9D
   text-align: center;
   height: 30px;
   width: 30px;
+}
+
+.download p span {
+  font-weight: 700;
+}
+.download p {
+  font-size: 2.4rem;
+  font-weight: 300;
+  padding: 65px 0;
+  line-height: 2;
+}
+
+
+.contact-heading, 
+.contact-form{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.contact-form {
+  margin-bottom: 5rem;
+}
+
+.main-footer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
